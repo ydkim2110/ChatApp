@@ -172,7 +172,7 @@ public class SettingsActivity extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<UploadTask.TaskSnapshot> thumb_task) {
                                     String thumb_downloadUrl = thumb_task.getResult().getDownloadUrl().toString();
                                     if(thumb_task.isSuccessful()) {
-//
+
                                         Map updateMap = new HashMap();
                                         updateMap.put("image", downloadUrl);
                                         updateMap.put("thumb_image", thumb_downloadUrl);
