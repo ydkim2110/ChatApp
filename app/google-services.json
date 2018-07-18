@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "505930059858",
+    "firebase_url": "https://ydkimchat.firebaseio.com",
+    "project_id": "ydkimchat",
+    "storage_bucket": "ydkimchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505930059858:android:a6cd7737b393cf64",
+        "android_client_info": {
+          "package_name": "com.example.anti2.instagramproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505930059858-4o1jbjdmcjgtlemhtoagmd683r8lo47n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anti2.instagramproject",
+            "certificate_hash": "a00646a43ee3802820d66d1491a17c4d08ca30da"
+          }
+        },
+        {
+          "client_id": "505930059858-p1uoha7omjbd65e8tajplaea3lqtc1tj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4G3xUbeXyJz8GE0r0ZGPLwV-qCataHak"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505930059858-p1uoha7omjbd65e8tajplaea3lqtc1tj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505930059858:android:74dc33703e753ce8",
+        "android_client_info": {
+          "package_name": "com.example.anti2.ydkimchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505930059858-tldrcl5h5l5imql9d250l7cvah6t9cvu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anti2.ydkimchat",
+            "certificate_hash": "a00646a43ee3802820d66d1491a17c4d08ca30da"
+          }
+        },
+        {
+          "client_id": "505930059858-p1uoha7omjbd65e8tajplaea3lqtc1tj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4G3xUbeXyJz8GE0r0ZGPLwV-qCataHak"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505930059858-p1uoha7omjbd65e8tajplaea3lqtc1tj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505930059858:android:afa61ab204e305da",
+        "android_client_info": {
+          "package_name": "com.example.anti2110.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505930059858-i2q8ldi3gor1uv0qs0e05ejr07a1dohb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anti2110.chatapp",
+            "certificate_hash": "2b8d1e43095b52001089a1c200030e551ae092d6"
+          }
+        },
+        {
+          "client_id": "505930059858-p1uoha7omjbd65e8tajplaea3lqtc1tj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4G3xUbeXyJz8GE0r0ZGPLwV-qCataHak"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505930059858-p1uoha7omjbd65e8tajplaea3lqtc1tj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
