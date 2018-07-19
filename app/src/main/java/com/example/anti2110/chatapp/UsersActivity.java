@@ -1,10 +1,12 @@
 package com.example.anti2110.chatapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
 
 import com.example.anti2110.chatapp.Model.Users;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
@@ -50,6 +52,18 @@ public class UsersActivity extends AppCompatActivity {
               protected void populateViewHolder(UsersViewHolder viewHolder, Users model, int position) {
                     viewHolder.setName(model.getName());
                     viewHolder.setUserStatus(model.getStatus());
+                    viewHolder.setUserImage(model.getThumb_image(), getApplicationContext());
+
+                    final String userId = getRef(position).getKey();
+
+                    viewHolder.view.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Intent profileIntent = new Intent(UsersActivity.this, ProfileActivity.class);
+                            profileIntent.putExtra("userId", userId);
+                            startActivity(profileIntent);
+                        }
+                    });
               }
           };
           adapter.notifyDataSetChanged();
